@@ -11,7 +11,7 @@ To get the images I have a `download_sprites.py` script that goes to the [PokeAP
 
 ### The training data
 
-For the training data we are going to assign all the pokemon types ( there are 19 of them ), fire, water, grass, etc to a list of integers with their id on the PokeAPI those id's will act as our labels for the training samples
+For the training data we are going to assign all the pokemon types ( there are 19 of them ), fire, water, grass, etc to a list of integers with id on the PokeAPI those id's will act as our labels for the training samples
 
 Then we are going to use [Color Thief](https://github.com/fengsp/color-thief-py) and loop through each pokemon (from gen1 and gen2) get their type and then from its image we get the dominant color of that pokemon.
 
